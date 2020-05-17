@@ -22,7 +22,7 @@
 			<h1 class="text-center mt-16 text-blue-900 text-4xl font-semibold font-serif md:text-5xl underline">About</h1>
 			<div class="mt-8 mb-16 md:mt-8 md:px-8 py-8 border shadow-md rounded-lg bg-blue-100">
 				
-				<div class="grid sm:grid-cols-2 row-gap-3 md:grid-cols-4">
+				<div class="grid grid-cols-2 row-gap-3 md:grid-cols-4">
 					<div>
 						<Fast class="ml-12 md:mx-24"></Fast>
 						<div class="mt-4 px-2 md:px-8">
@@ -60,7 +60,7 @@
 			<h1 class="text-center mt-16 text-blue-900 text-4xl font-semibold font-serif md:text-5xl underline">Deeper details</h1>
 			<div class="flex md:flex-row flex flex-col justify-between mt-8 px-8 py-8 gap-2 border rounded-lg shadow-2xl bg-blue-100">
 				<div class="md:w-3/4 px-8 mb-8 border-b">
-					<div class="flex md:flex-col sm:flex-col items-center">
+					<div class="flex md:flex-col flex-col items-center">
 						<DefalutScreen></DefalutScreen>
 						<h2 class="text-3xl mt-2 font-semibold text-gray-900">Back-end</h2>
 						<p class="mt-2 font-semibold text-teal-700 text-center">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
@@ -171,27 +171,17 @@
 
 <script>
 import Screen from '../components/icons/Screen.vue'
-
 import DefalutScreen from '../components/icons/DefalutScreen.vue'
-
 import Fast from '../components/icons/Fast.vue'
-
 import Lamp from '../components/icons/Lamp.vue'
-
 import Rocket from '../components/icons/Rocket.vue'
-
-
-
 export default{
-
 	components: {
-
 		Screen,
 		Fast,
 		Lamp,
 		Rocket,
 		DefalutScreen
 	}
-
 }
 </script>
